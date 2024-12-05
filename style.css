@@ -1,0 +1,182 @@
+  /* google font */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+   /* navigation_bar */
+#navigation_bar{
+    background-color: rgb(6, 6, 90);
+    width: 90%;
+    padding: 5px;
+    margin: 5px auto;
+    border: 5px solid skyblue;
+    border-radius: 5px;
+    text-align: center;
+ 
+    
+}
+
+#navigation_bar  a{
+    width: 90%;
+    margin: 0 2%;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* z-index use */
+/* je div ba content ar z-index beshi se opore thakbe / tobe position use lorte hobe, na hole kaj korbe na 
+position :relative,absulote, fixed,sticky use korte hobe.
+*/
+
+
+
+
+
+
+/* display */
+
+/* display:block;
+display: inline-block;
+display:none; */
+
+h1{
+    background-color: chartreuse;
+    display: inline-block;
+}
+
+span{
+    background-color: aqua;
+    display: block;
+}
+
+
+
+
+
+ /* position */
+/* like to you, use to width and height any px with position sticky */
+#parent_div_3{
+    background-color: yellow;
+    height: 100px;
+    position: sticky;
+    top:0px;
+    left: 0px;
+    margin:  20px;
+}
+
+
+
+
+
+/* parent_div_2 */
+/* like to you, use to width and height any px with position fixed  */
+#parent_div_2{
+    background-color: indigo;
+    width: 100px;
+    height: 50px;
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+}
+
+
+/* parent_div_1 */
+/* position relative and absulate use */
+/* parent div position relative diye sob child div absolute dive */
+#parent_div_1{
+    width: 300px;
+    height:300px;
+    background-color: brown;
+    margin: 150px auto;
+    position:relative;
+
+}
+
+#child_div_1{
+    width: 200px;
+    height: 200px;
+    background-color: darkorange;
+
+    /* position top, bottom, left, right px use taken anyplace*/
+    /* position: absolute;
+    top:40px;
+    left: 40px; */
+     
+    /* position top-right conrner */
+    /* position: absolute;
+    right: 0px;
+    top:0px; */
+      
+    /* position bottom-right conrner */
+    /* position: absolute;
+    right: 0px;
+    bottom: 0px; */
+    
+    /* position bottom-left conrner */
+    /* position: absolute;
+    left: 0px;
+    bottom: 0px; */
+
+
+    /* position center  */
+    /* position: absolute;
+    left: 50%;
+    top:50%;
+    margin-top: -100px;
+    margin-left: -100px; */
+
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin-top: -100px;
+    margin-left: -100px;
+
+
+
+}
+
+#child_div_2{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top:50%;
+    right: 50%;
+    margin-top: -50px;
+    margin-right: -50px;
+}
+
+#child_div_3{
+    background-color: blue;
+    width:50px;
+    height:50px;
+    top:50%;
+    right: 50%;
+    margin-top: -25px;
+    margin-right: -25px;
+    position: absolute;
+}
+
+
+
